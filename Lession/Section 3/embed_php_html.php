@@ -1,3 +1,9 @@
+<?php
+$title = "My title news";
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,7 +15,7 @@
 </head>
 
 <body>
-    <h1>Hello My name is Nam, i'm learning <?php echo "PHP language" ?></h1>
+    <h1>Hello My name is Nam, i'm learning <?php echo "Embed php in html - {$title}"; ?></h1>
 </body>
 
 </html>
